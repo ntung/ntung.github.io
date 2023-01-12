@@ -36,9 +36,12 @@ ul > li {
     text-align: justify;
 }
 
-h3 {
+#menuResume h3 {
     font-size: 20px;
     text-transform: uppercase;
+}
+#menuResume section p {
+    font-size: 14px;
 }
 
 h4 {
