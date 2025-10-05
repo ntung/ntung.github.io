@@ -19,6 +19,10 @@
             font-size: larger;
             font-weight: bolder !important;
         }
+        .sub-title {
+            margin-top: 20px;
+            font-weight: bolder !important;
+        }
         .organisation {
             color: #0b84e0 !important;
             font-weight: bold !important;
@@ -185,64 +189,108 @@ identifiers.org, and Reactome.
                 <p><span class="title">Senior Software Engineer</span><br/>
                     <i class="fas fa-building"></i> <span class="organisation"> EMBL-EBI</span><span>&nbsp;<i
                             class="fas fa-calendar-alt"></i> Oct
-                        2019 — Sep 2025 <i class="fas fa-map-marker-alt"></i> Cambridge, United Kingdom</span></p>
+                        2019 — Dec 2025 <i class="fas fa-map-marker-alt"></i> Cambridge, United Kingdom</span></p>
                 <ul class="details">
-                    <li><strong>Focused projects</strong>: BioModels on Kubernetes and interconnected distributed
-                        services - implementing security design principles.</li>
-                    <li><b>Advanced in Java</b>: Multithreading, Threadpools, Synchronisation, Concurrency and
-                                  CompletableFuture, Rich Standard Libraries, Simplified Syntax with Lambda
-                        expressions and Stream API; </li>
-                    <li><strong>Software Design and Architecture</strong>: GoF Design Patterns, DDD, DTOs, MVC,
-                        Microservices, Message Queues/Streams (with Redis Stream, Apache Camel),
+                    <li><strong>Engineered</strong> and <strong>deployed</strong> the <strong>BioModels</strong> platform onto a
+                        <strong>Kubernetes</strong> cloud environment,
+                        implementing modern <strong>security design principles</strong> across a complex system of interconnected
+                        <strong>distributed services</strong>.</li>
+                    <li><strong>Led</strong> the <strong>cloud migration</strong> of legacy BioModels services (built
+                        in PHP, Node.js, and MongoDB/NoSQL)
+                        to the institutional Kubernetes cloud,
+                        demonstrating expertise across a diverse technology stack.
                     </li>
-                    <li><strong>Cloud-based solutions</strong>: Docker, CI/CD pipelines with GitLab; migrated BioModels
-                        services and
-                        its
-                        legacies (in PHP, Node.js, MongoDB, NoSQL, etc.) to EBI's Kubernetes cloud.</li>
-                    <li>Microservices: a service with Spring Boot 2.0 to create CombineArchive files,
-                        a service using Flask to download and upload large files over 1GB, a service using
-                        FastAPI combining to Slurm to
-                        exchange the requests between BioModels and EBI's High-Performance Computing (HPC) Cluster.</li>
-                    <li>Extended REST API to allow programmatic submissions and supported our 
-                        collaborators to update over 1000 curated models using the API.</li>
-                    <li>Developed Python pipelines to submit BioModels content to BioStudies as a mirror repository. 
-                        Worked with GitHub actions, huge data submissions, Redis cache, Bash script. 
+                    <li><strong>Enhanced</strong> user experience by deploying <strong>Redis caching</strong>,
+                        <strong>drastically
+                        decreasing the BioModels
+                        homepage load time from over one minute to under 2 seconds</strong>.</li>
+                    <li><strong>Optimized</strong> the <strong>CI/CD pipeline</strong> (using GitLab) and refactored
+                        the monolithic codebase, <strong>reducing
+                            Kubernetes deployment time by 75%</strong> (from 12 minutes to 3 minutes).</li>
+                    <li><strong>Developed</strong> multiple <strong>Microservices</strong> to handle critical operations:
+                        <ul>
+                            <li>A <strong>Spring Boot 2.0</strong> (Java) service for <strong>CombineArchive</strong>
+                                file generation.</li>
+                            <li>A <strong>Flask</strong> (Python) service to manage <strong>large file
+                                transfers</strong> (over 1GB).</li>
+                            <li>A <strong>FastAPI</strong> (Python) service integrated with <strong>Slurm</strong> and
+                                <strong>IBM Spectrum LSF</strong> for seamless request exchange
+                                with the <strong>High-Performance Computing (HPC) Cluster</strong>.</li>
+                        </ul>
                     </li>
-                    <li>Refactored the large codebase of BioModels to speed up Kubernetes cloud deployment,
-                        reducing from 12 to 3 minutes.</li>
-                    <li>Technologies updated: React, Vue (worked with BioStudies), MongoDB.</li>
-                    <li>Always go the extra mile when supporting end users, collaborators, and our database curators. </li>
+                    <li><strong>Extended</strong> the <strong>REST API</strong> to enable programmatic data submissions, allowing collaborators to manage
+                        and update over <strong>1,000 curated models</strong>.</li>
+                    <li><strong>Created</strong> robust <strong>Python pipelines</strong> and <strong>GitHub
+                        Actions</strong> to automate large data submissions and
+                        synchronisation with the <strong>BioStudies</strong> mirror repository,
+                        utilizing <strong>Redis caching</strong> and <strong>Bash scripting</strong>.</li>
+                    <li>Applied advanced <strong>Java</strong> concepts, including <strong>Multithreading</strong>,
+                        <strong>Concurrency (CompletableFuture)</strong>,
+                        and the <strong>Stream API</strong>, to develop highly performant and scalable platform features.
+                    </li>
+                    <li>Utilized <strong>Software Design and Architectural</strong> best practices, including <strong>GoF
+                        Design Patterns</strong>,
+                        <strong>Domain-Driven Design (DDD)</strong>, <strong>Microservices</strong>, and <strong>Message
+                            Queues/Streams (Redis Stream, Apache Camel)</strong>.</li>
+                    <li>The technologies you are proficient in:
+                    <ul>
+                        <li>Cloud/DevOps: Kubernetes, Docker, GitLab (CI/CD), GitHub Actions, Slurm (HPC).</li>
+                        <li>Backend & Core Language: Java (Spring Boot), Python (Flask, FastAPI), PHP, Node.js, Groovy
+                            (Legacy), Bash.</li>
+                        <li>Data & Messaging: MongoDB, NoSQL, Redis (Cache, Stream), Apache Camel.</li>
+                        <li>Architecture: Microservices, DDD, GoF Design Patterns, REST API, DTOs, MVC.</li>
+                        <li>Frontend: React, Vue.js.
+                    </ul>
+                    </li>
                 </ul>
-                <p><span class="title">Software Engineer</span><br/>
+                <p style="margin-bottom: 0 !important;"><span class="title">Software Engineer</span><br/>
                     <i class="fas fa-building"></i><span class="organisation"> EMBL-EBI</span> <span>&nbsp;<i
                             class="fas fa-calendar-alt"></i> Nov 2015 — Sep 2019 <i
                             class="fas fa-map-marker-alt"></i> Cambridge, United
                         Kingdom</span></p>
+                <p class="sub-title" style="margin-top: 0px">Software Development and Maintenance</p>
                 <ul class="details">
-                    <li><strong>Projects</strong>: DDMoRe, BioModels, and DeepOC</li>
-                    <li><b>Java skills</b>: Object-Oriented
-                        Programming (Encapsulation, Inheritance, Polymorphism and Abstraction), JVM tuning: JVM
-                        arguments and options, Automatic Garbage Collection, Exception Handling,
-                        Security Manager, Logging and Monitoring frameworks; Testing: Unit testing
-                        (JUnit, Mockito), integration testing, end-to-end testing; Hibernate/JPA: ORM
-                        (Object-Relational Mapping), entity relationships, caching strategies.</li>
-                    <li>Mostly employed the principles of Software Development: SOLID, DRY, KISS, and more.</li>
-                    <li>Heavily used the best practices for implementing coding standards and clean code such as:
-                        naming conventions,
-                        formatting and indentation, comments and documentation, error handling, and DRY Principle.</li>
-                    <li>Primarily upgraded BioModels using JUMMP written in Grails Groovy and Java.
-                        Maintained the existing business implementations and added new features.</li>
-                    <li>Model Repositories: support various community standards and formats for computational models
-                    such as SBML, PharmML, MDL, etc. Worked with Ontologies, Metadata RDF, FAIRness.
-                    <li>Searching and High-Performance Computing (HPC): Solr, BioSolr, indexing-based search, IBM Spectrum LSF
-                    <li>Programming: Spring, Java, Grails 2.x, Groovy, MySQL, LDAP, Bash script
-                    <li>Agile Development, Git, JIRA, Maven, Gradle
-                    <li>JavaScript, jQuery, Backbone, Underscore, ReactJS, Node, AngularJS 1.0
-                    <li>FrontEnd technologies: Angular 8, Foundation CSS Framework 5.0, 6.0, Bootstrap 4, 5
-                    <li>Taken part in building a model repository using an open source project, called JUMMP, a
-                    deliverable of the DDMoRe project</li>
+                    <li>Led the upgrade and modernisation of the BioModels platform using JUMMP (built with Grails
+                         Groovy and Java), maintaining existing complex business logic while implementing critical
+                        new features.</li>
+                    <li>Contributed to the DDMoRe and DeepOC projects, focusing on developing robust and scalable
+                    computational model repositories.</li>
+                    <li>Designed and implemented model repository features to support various community standards and
+                    formats, including SBML, PharmML, and MDL.</li>
+                    <li>Integrated industry standards for data discoverability, working extensively with Ontologies,
+                    Metadata (RDF), and FAIRness principles.</li>
+                    <li>Maintained and enhanced legacy systems while actively participating in the transition to modern
+                    architecture patterns.</li>
                 </ul>
-
+                <p class="sub-title">Backend Engineering and Performance</p>
+                <ul class="details">
+                    <li>Applied advanced Java concepts, including Object-Oriented Programming (OOP), Multithreading, and
+                        comprehensive Exception Handling.</li>
+                    <li>Optimized application performance through strategic JVM tuning, including JVM arguments and
+                    Garbage Collection (GC) analysis.</li>
+                    <li>Implemented Object-Relational Mapping (ORM) using Hibernate/JPA, managing complex entity
+                    relationships and leveraging caching strategies to improve database efficiency.</li>
+                    <li>Developed and maintained indexing-based search capabilities using Solr and BioSolr to support
+                    high-performance data retrieval.</li>
+                    <li>Integrated services with High-Performance Computing (HPC) resources using IBM Spectrum LSF.</li>
+                </ul>
+                <p class="sub-title">Quality Assurance and Software Design</p>
+                <ul class="details">
+                    <li>Ensured code quality and reliability through comprehensive Testing, including Unit Testing
+                        (JUnit, Mockito), Integration Testing, and End-to-End Testing.</li>
+                    <li>Adhered to core Software Design Principles such as SOLID, DRY (Don't Repeat Yourself), and KISS
+                    (Keep It Simple, Stupid) to produce maintainable and extensible code.</li>
+                    <li>Championed Clean Code and Coding Standards best practices, focusing on robust error handling,
+                    clear documentation, and consistent naming conventions.</li>
+                </ul>
+                <p class="sub-title">Technology Stack and Workflow</p>
+                <ul class="details">
+                    <li>Backend: Java, Spring Framework, Grails 2.x, Groovy, MySQL, LDAP, Bash scripting.
+                    <li>Frontend: Developed user interfaces using Angular 8, ReactJS, JavaScript, jQuery, Backbone, and
+                               legacy AngularJS 1.0 frameworks; proficient with Foundation and Bootstrap CSS frameworks.
+                    <li>Development Tools: Practiced Agile methodologies; utilised Git for version control, JIRA for
+                                 project management, and Maven/Gradle for build automation.
+                </ul>
                 <p><span class="title">PhD Student</span><br/>
                     <i class="fas fa-building"></i> <span class="organisation">LaBRI</span> <span>&nbsp;<i
                             class="fas fa-calendar-alt"></i> Oct 2010 — Feb 2015 <i
